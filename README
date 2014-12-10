@@ -1,5 +1,7 @@
 Installation:
 
+		:warning: **Don't forget to update vim!**
+
     git clone git://github.com/bendman/dotvim.git ~/.vim
 
 Create symlinks:
