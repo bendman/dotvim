@@ -11,12 +11,14 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-distinguished'
+Plugin 'sickill/vim-monokai'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'mattn/emmet-vim'
 
 " These are the tweaks I apply to YCM's config, you don't need them but they might help.
 " YCM gives you popups and splits by default that some people might not like,
@@ -167,7 +169,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set t_Co=256
 syntax on
 set background=dark
-colorscheme distinguished
+colorscheme monokai
 
 " Split line at cursor in insert mode
 imap <C-c> <CR><Esc>O
