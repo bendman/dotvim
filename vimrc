@@ -10,6 +10,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'sickill/vim-monokai'
 Plugin 'jelera/vim-javascript-syntax'
@@ -161,9 +162,6 @@ if has("autocmd")
 	" Treat .json files as .js
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
-
-" Add CTRL+P Plugin
-set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " Colors
 set t_Co=256
