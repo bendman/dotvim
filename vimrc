@@ -25,6 +25,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'mattn/emmet-vim'
+Plugin 'groenewege/vim-less'
 
 " These are the tweaks I apply to YCM's config, you don't need them but they might help.
 " YCM gives you popups and splits by default that some people might not like,
