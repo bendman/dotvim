@@ -10,7 +10,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+
+" Fuzzy finder using ctrl-p
 Plugin 'kien/ctrlp.vim'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'sickill/vim-monokai'
 Plugin 'jelera/vim-javascript-syntax'
