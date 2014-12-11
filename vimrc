@@ -171,3 +171,6 @@ colorscheme monokai
 
 " Split line at cursor in insert mode
 imap <C-c> <CR><Esc>O
+
+" Insert command mode with jj
+imap jj <Esc>
