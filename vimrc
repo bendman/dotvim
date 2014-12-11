@@ -32,8 +32,6 @@ let g:ycm_add_preview_to_completeopt=0
 let g:ycm_confirm_extra_conf=0
 set completeopt-=preview
 
-Plugin 'marijnh/tern_for_vim'
-
 " This does what it says on the tin. It will check your file on open too, not
 " just on save.
 " You might not want this, so just leave it out if you don't.
@@ -84,8 +82,6 @@ set backspace=indent,eol,start
 set ttyfast
 " Add the g flag to search/replace by default
 set gdefault
-" Use UTF-8 without BOM
-set encoding=utf-8 nobomb
 " Change mapleader
 let mapleader=","
 " Don’t add empty newlines at the end of files
